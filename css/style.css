@@ -515,6 +515,7 @@ section.active {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 45%;
           flex: 0 1 45%;
+  padding-left: 80px;
 }
 
 .main-block__button {
@@ -1013,10 +1014,6 @@ section.active {
     padding-bottom: 8.1875rem;
   }
 
-  .main-block__info {
-    padding-left: 6.875rem;
-  }
-
   .main-block__sub-title:not(:last-child) {
     margin-bottom: 1.5rem;
   }
@@ -1215,10 +1212,6 @@ section.active {
 
   .main-block {
     padding-bottom: 3rem;
-  }
-
-  .main-block__info {
-    padding-left: 5rem;
   }
 
   .main-block__sub-title:not(:last-child) {
@@ -1464,6 +1457,7 @@ section.active {
   }
 
   .main-block__info {
+    padding-left: 0px;
     text-align: center;
   }
 
@@ -1542,10 +1536,6 @@ section.active {
 @media (max-width: 61.99875em) and (max-width: 20em) {
   .main-block__info {
     margin-bottom: 5.0625rem;
-  }
-
-  .main-block__info {
-    padding-left: 0.0000000625rem;
   }
 
   .destination__image:not(:last-child) {
@@ -1899,18 +1889,6 @@ section.active {
 @supports not (padding-bottom: clamp( 3rem , 1.2150537634rem  +  8.9247311828vw , 8.1875rem )) {
     .main-block {
       padding-bottom: calc(3rem + 5.1875 * (100vw - 20rem) / 58.125);
-    }
-}
-
-@supports (padding-left: clamp( 5rem , 4.3548387097rem  +  3.2258064516vw , 6.875rem )) {
-    .main-block__info {
-      padding-left: clamp( 5rem , 4.3548387097rem  +  3.2258064516vw , 6.875rem );
-    }
-}
-
-@supports not (padding-left: clamp( 5rem , 4.3548387097rem  +  3.2258064516vw , 6.875rem )) {
-    .main-block__info {
-      padding-left: calc(5rem + 1.875 * (100vw - 20rem) / 58.125);
     }
 }
 
@@ -2464,10 +2442,6 @@ section.active {
     margin-bottom: 9.75rem;
   }
 
-  .main-block__info {
-    padding-left: 0.0000000625rem;
-  }
-
   .destination__image:not(:last-child) {
     margin-bottom: 3.3125rem;
   }
@@ -2483,18 +2457,6 @@ section.active {
 @supports not (margin-bottom: clamp( 5.0625rem , 3.4495967742rem  +  8.064516129vw , 9.75rem )) {
     .main-block__info {
       margin-bottom: calc(5.0625rem + 4.6875 * (100vw - 20rem) / 58.125);
-    }
-}
-
-@supports (padding-left: clamp( 0.0000000625rem , 0.0000000625rem  +  0vw , 0.0000000625rem )) {
-    .main-block__info {
-      padding-left: clamp( 0.0000000625rem , 0.0000000625rem  +  0vw , 0.0000000625rem );
-    }
-}
-
-@supports not (padding-left: clamp( 0.0000000625rem , 0.0000000625rem  +  0vw , 0.0000000625rem )) {
-    .main-block__info {
-      padding-left: calc(0.0000000625rem + 0 * (100vw - 20rem) / 58.125);
     }
 }
 
